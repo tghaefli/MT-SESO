@@ -1,0 +1,145 @@
+Messen heisst vergleichen
+
+Endmass zum Kalibiern, Einheiten in brauchbare Körper umformen
+
+Einheiten immer angeben
+
+
+
+Messwert   = Zahlenwert mal Einheit (15.3)
+Messgrösse = physikalische Grösse (m, s, A)
+
+1. Messgrösse: Meter
+2. Messgrösse: Kilogramm, 10cm^3 mit 4°C Wasser = 1kg = 1l
+
+
+
+1 Sekunde abweichung in 30 mio Jahre laufzeit
+Lichtstärke = Candela, SI_Einheit aber total nutzlos. Candela = (Leistung/Fläche)
+Herbst 2018 werden die Eineiten neu festgelegt
+
+
+
+SI fremde Einheit:
+    Tag, Stunden, Minuten
+    Karat (Edelsteine),
+        Edelsteinen: 1  Karat      = 200mg
+        Materialien: 20 Karat Gold = Reinheit
+
+
+Aufgabe 1-1:
+    abgeletitete SI_Einheit --> SI-Einheit: einfach
+    Spannung    = Arbeit / Ladung = N*m / C = kg*m/s^2 * m/A*s
+    {Spannung}  = kg*m^2 / A*s^3 = Volt
+    
+    Kapazität   = Ladung / Spannung
+    {Kapazität} = C / V = A*s / (kg*m^2 / A*s^3) = A^2*s^4 / kg*m^2 = Farad
+
+
+Aufgabe 2-1:
+    Basiseinheit --> abgeletitete SI_Einheit: schwirig
+    kg / m*s^2 = kg*m / m*s^2*m = N/m^2 = 
+
+    A^2*s^2*s / kg*m*m^2 = A^2*s / N*m = A^2 / V*A
+    Nm/s = W = U*I
+
+
+Realität:   Prozess
+Simulation: System
+
+
+Prozess --> Modelierung --> System
+Prozess <-- Schätzung   <-- System
+
+
+d_T --> Körper --> d_l
+d_T  *    K      = d_l
+d_T  *  l_0 * a  = d_l
+
+
+
+e = y_hat - y;   //sonst Vorzeichenfehler !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Eichen:      Obligatorisch, Ist Anzeige innerhalb einer Toleranz
+Kalibrieren: Freiwillig, Messabweichung wird festgestellt
+
+Messgerät: Einheit_Input  = Einheit_Output
+Sensor:    Einheit_Input != Einheit_Output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
