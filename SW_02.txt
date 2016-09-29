@@ -1,0 +1,27 @@
+Aufgabe 2-3:
+    1.) dV_zu/dt, dV_ab/dt, Volumen, Höhe
+    2.) Eigangsgrössen: die den Pegelstand verändern: dV_zu/dt und dV_ab/dt
+    3.) Ausgagsgrössen: Füllhöhe, Volumen, dh/dt (gibt verschiedene Lsg.)
+    4.) Parameter: Grundfläche
+    5.) Anfangswerte: h(t=0), V(t=0)
+
+    V_zu ----┐            ______________         __________
+             v           |              |       |          |
+    V_ab ----o---------->|   Behälter   |------>| Integral |--------┬-----> h
+             ^   m/s^2   |______________|  m/s  |__________|        |
+             |                                                      |
+             |    _________________________________                 |
+             |   |                                 |                |
+             └---|  Evtl. Rückführung, da V_ab(h)  |<---------------┘
+                 |_________________________________|
+
+
+
+
+
+
+
+
+
+
+
