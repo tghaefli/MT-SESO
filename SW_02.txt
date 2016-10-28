@@ -5,18 +5,22 @@ Aufgabe 2-3:
     4.) Parameter: Grundfläche
     5.) Anfangswerte: h(t=0), V(t=0)
 
+
     V_zu ----┐            ______________         __________
              v           |              |       |          |
     V_ab ----o---------->|   Behälter   |------>| Integral |--------┬-----> h
              ^   m/s^2   |______________|  m/s  |__________|        |
              |                                                      |
-             |    _________________________________                 |
-             |   |                                 |                |
-             └---|  Evtl. Rückführung, da V_ab(h)  |<---------------┘
-                 |_________________________________|
+             |        _________________________________             |
+             |       |                                 |            |
+             └-------|  Evtl. Rückführung, da V_ab(h)  |<-----------┘
+                     |_________________________________|
 
 
-
+Aufgabe 4-1:
+    DMS
+    Weiterführung von SW01
+    A3 Papier mit Prozess-Konkatenation
 
 
 
