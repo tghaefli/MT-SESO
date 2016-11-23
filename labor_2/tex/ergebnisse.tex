@@ -1,0 +1,45 @@
+\section{Ergebnisse}
+
+\begin{tabular}{ l | l | l}
+    \hline
+                              & Potentiometer  & Kapazitiver Sensor  \\ \hline
+    Messbereich [mm]          & 0mm - 20mm     & 0mm - 16mm          \\ \hline
+    %max. Nichtlinearität [mm] & ±             & ±                   \\ \hline
+    %max. Hysterese [mm]       & ±  mm         & ± 0.16 mm           \\ \hline
+    max. Nichtlinearität [\%] & ± 0.22 \%      & ± 3.2 \%            \\ \hline
+    max. Hysterese [\%]       & ± 0.025 \%     & ± 0.27 \%           \\ \hline
+    Rel. Genauigkeit [\%]     & ± 0.22 \%      & ± 3.2 \%            \\ \hline
+\end{tabular}
+
+\vspace*{1em}
+\subsection{Gaussische Fehlerfortpflanzung}
+Die Fehlerfortpflanung nach Gauss verläuft über die Euklidische Norm. \\
+\hspace{3cm}
+$Genauigkeit = || Genauigkeit || = \sqrt{(Nichtlinearität)^2 + (Hysterese)^2}$
+
+
+
+\subsection{Dielektrikum}
+Der kapazitive Sensor baut ein elektrisches Feld auf zwischen den Platten. Das Dielektrikum beeinflusst das elektrische Feld signifikant. Je nach Material muss ein Reduktionsfaktor einbezogen werden. Luft hat $\epsilon_{Luft} = 1$.
+\begin{tabular}{| l | l |}
+    \hline
+    Material  & Reduktionsfaktor \\
+    \hline
+    FE360     & 1\\
+    ST37      & 1\\
+    Wasser    & 1\\
+    Weizen    & 0.8\\
+    Holz      & 0.7\\
+    Glas      & 0.6\\
+    Öl        & 0.4\\
+    PVC       & 0.4\\
+    PVC       & 0.4\\
+    PE        & 0.37\\
+    Keramik   & 0.3 \\
+    \hline
+\end{tabular}
+
+\vspace*{1em}
+
+\clearpage
+
